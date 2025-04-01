@@ -1,0 +1,30 @@
+
+modLoader="javafml"
+loaderVersion="[47,)"
+
+license="MIT"
+issueTrackerURL="https://github.com/iljg/enchanted-gold-apple-recipe/issues"
+
+[[mods]]
+modId="enchantedgoldapplerecipe"
+version="${mod_version}"
+displayName="Enchanted Gold Apple Recipe"
+displayURL="https://github.com/iljg/enchanted-gold-apple-recipe/"
+authors="iljg"
+description='''Adds crafting recipe for Enchanted Golden Apple'''
+
+[[dependencies.enchantedgoldapplerecipe]]
+modId="forge"
+mandatory=true
+versionRange="${forge_version_range}"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.enchantedgoldapplerecipe]]
+modId="minecraft"
+mandatory=true
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"
+
+
